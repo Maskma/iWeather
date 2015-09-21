@@ -14,6 +14,7 @@
 		FA8347C61BAE694800308C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA8347C51BAE694800308C02 /* Images.xcassets */; };
 		FA8347C91BAE694800308C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8347C71BAE694800308C02 /* LaunchScreen.xib */; };
 		FA8347D51BAE694800308C02 /* iWeatherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8347D41BAE694800308C02 /* iWeatherTests.m */; };
+		FAAD25AF1BAFD8EF00D265B3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAD25AE1BAFD8EF00D265B3 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		FA8347CE1BAE694800308C02 /* iWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8347D31BAE694800308C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8347D41BAE694800308C02 /* iWeatherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iWeatherTests.m; sourceTree = "<group>"; };
+		FAAD25AE1BAFD8EF00D265B3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		FA8347AC1BAE694800308C02 = {
 			isa = PBXGroup;
 			children = (
+				FAAD25AE1BAFD8EF00D265B3 /* Default-568h@2x.png */,
 				FA8347B71BAE694800308C02 /* iWeather */,
 				FA8347D11BAE694800308C02 /* iWeatherTests */,
 				FA8347B61BAE694800308C02 /* Products */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA8347C41BAE694800308C02 /* Main.storyboard in Resources */,
+				FAAD25AF1BAFD8EF00D265B3 /* Default-568h@2x.png in Resources */,
 				FA8347C91BAE694800308C02 /* LaunchScreen.xib in Resources */,
 				FA8347C61BAE694800308C02 /* Images.xcassets in Resources */,
 			);
@@ -416,6 +420,7 @@
 				FA8347DA1BAE694800308C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA8347DB1BAE694800308C02 /* Build configuration list for PBXNativeTarget "iWeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				FA8347DD1BAE694800308C02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
